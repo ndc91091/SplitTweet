@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E69F8982348CAD200CC3385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8972348CAD200CC3385 /* AppDelegate.swift */; };
+		5E69F89A2348CAD200CC3385 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8992348CAD200CC3385 /* SceneDelegate.swift */; };
+		5E69F89C2348CAD200CC3385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F89B2348CAD200CC3385 /* ViewController.swift */; };
+		5E69F89F2348CAD200CC3385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E69F89D2348CAD200CC3385 /* Main.storyboard */; };
+		5E69F8A12348CAD400CC3385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E69F8A02348CAD400CC3385 /* Assets.xcassets */; };
+		5E69F8A42348CAD400CC3385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E69F8A22348CAD400CC3385 /* LaunchScreen.storyboard */; };
+		5E69F8AF2348CAD500CC3385 /* TikAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8AE2348CAD500CC3385 /* TikAssignmentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E69F8AB2348CAD500CC3385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E69F88C2348CAD200CC3385 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E69F8932348CAD200CC3385;
+			remoteInfo = TikAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E69F8942348CAD200CC3385 /* TikAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E69F8972348CAD200CC3385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E69F8992348CAD200CC3385 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E69F89B2348CAD200CC3385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E69F89E2348CAD200CC3385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E69F8A02348CAD400CC3385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E69F8A32348CAD400CC3385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E69F8A52348CAD400CC3385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E69F8AA2348CAD500CC3385 /* TikAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E69F8AE2348CAD500CC3385 /* TikAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikAssignmentTests.swift; sourceTree = "<group>"; };
+		5E69F8B02348CAD500CC3385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E69F8912348CAD200CC3385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E69F8A72348CAD500CC3385 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E69F88B2348CAD200CC3385 = {
+			isa = PBXGroup;
+			children = (
+				5E69F8962348CAD200CC3385 /* TikAssignment */,
+				5E69F8AD2348CAD500CC3385 /* TikAssignmentTests */,
+				5E69F8952348CAD200CC3385 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E69F8952348CAD200CC3385 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8942348CAD200CC3385 /* TikAssignment.app */,
+				5E69F8AA2348CAD500CC3385 /* TikAssignmentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E69F8962348CAD200CC3385 /* TikAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8972348CAD200CC3385 /* AppDelegate.swift */,
+				5E69F8992348CAD200CC3385 /* SceneDelegate.swift */,
+				5E69F89B2348CAD200CC3385 /* ViewController.swift */,
+				5E69F89D2348CAD200CC3385 /* Main.storyboard */,
+				5E69F8A02348CAD400CC3385 /* Assets.xcassets */,
+				5E69F8A22348CAD400CC3385 /* LaunchScreen.storyboard */,
+				5E69F8A52348CAD400CC3385 /* Info.plist */,
+			);
+			path = TikAssignment;
+			sourceTree = "<group>";
+		};
+		5E69F8AD2348CAD500CC3385 /* TikAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8AE2348CAD500CC3385 /* TikAssignmentTests.swift */,
+				5E69F8B02348CAD500CC3385 /* Info.plist */,
+			);
+			path = TikAssignmentTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E69F8932348CAD200CC3385 /* TikAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E69F8B32348CAD500CC3385 /* Build configuration list for PBXNativeTarget "TikAssignment" */;
+			buildPhases = (
+				5E69F8902348CAD200CC3385 /* Sources */,
+				5E69F8912348CAD200CC3385 /* Frameworks */,
+				5E69F8922348CAD200CC3385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikAssignment;
+			productName = TikAssignment;
+			productReference = 5E69F8942348CAD200CC3385 /* TikAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E69F8A92348CAD500CC3385 /* TikAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E69F8B62348CAD500CC3385 /* Build configuration list for PBXNativeTarget "TikAssignmentTests" */;
+			buildPhases = (
+				5E69F8A62348CAD500CC3385 /* Sources */,
+				5E69F8A72348CAD500CC3385 /* Frameworks */,
+				5E69F8A82348CAD500CC3385 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E69F8AC2348CAD500CC3385 /* PBXTargetDependency */,
+			);
+			name = TikAssignmentTests;
+			productName = TikAssignmentTests;
+			productReference = 5E69F8AA2348CAD500CC3385 /* TikAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E69F88C2348CAD200CC3385 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Cuong Nguyen";
+				TargetAttributes = {
+					5E69F8932348CAD200CC3385 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					5E69F8A92348CAD500CC3385 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 5E69F8932348CAD200CC3385;
+					};
+				};
+			};
+			buildConfigurationList = 5E69F88F2348CAD200CC3385 /* Build configuration list for PBXProject "TikAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E69F88B2348CAD200CC3385;
+			productRefGroup = 5E69F8952348CAD200CC3385 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E69F8932348CAD200CC3385 /* TikAssignment */,
+				5E69F8A92348CAD500CC3385 /* TikAssignmentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E69F8922348CAD200CC3385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E69F8A42348CAD400CC3385 /* LaunchScreen.storyboard in Resources */,
+				5E69F8A12348CAD400CC3385 /* Assets.xcassets in Resources */,
+				5E69F89F2348CAD200CC3385 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E69F8A82348CAD500CC3385 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E69F8902348CAD200CC3385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E69F89C2348CAD200CC3385 /* ViewController.swift in Sources */,
+				5E69F8982348CAD200CC3385 /* AppDelegate.swift in Sources */,
+				5E69F89A2348CAD200CC3385 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E69F8A62348CAD500CC3385 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E69F8AF2348CAD500CC3385 /* TikAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E69F8AC2348CAD500CC3385 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E69F8932348CAD200CC3385 /* TikAssignment */;
+			targetProxy = 5E69F8AB2348CAD500CC3385 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E69F89D2348CAD200CC3385 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E69F89E2348CAD200CC3385 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E69F8A22348CAD400CC3385 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E69F8A32348CAD400CC3385 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E69F8B12348CAD500CC3385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E69F8B22348CAD500CC3385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E69F8B42348CAD500CC3385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHG65TP2F4;
+				INFOPLIST_FILE = TikAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cuongn.dev.TikAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E69F8B52348CAD500CC3385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHG65TP2F4;
+				INFOPLIST_FILE = TikAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cuongn.dev.TikAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E69F8B72348CAD500CC3385 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHG65TP2F4;
+				INFOPLIST_FILE = TikAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cuongn.dev.TikAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikAssignment.app/TikAssignment";
+			};
+			name = Debug;
+		};
+		5E69F8B82348CAD500CC3385 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PHG65TP2F4;
+				INFOPLIST_FILE = TikAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cuongn.dev.TikAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TikAssignment.app/TikAssignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E69F88F2348CAD200CC3385 /* Build configuration list for PBXProject "TikAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E69F8B12348CAD500CC3385 /* Debug */,
+				5E69F8B22348CAD500CC3385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E69F8B32348CAD500CC3385 /* Build configuration list for PBXNativeTarget "TikAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E69F8B42348CAD500CC3385 /* Debug */,
+				5E69F8B52348CAD500CC3385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E69F8B62348CAD500CC3385 /* Build configuration list for PBXNativeTarget "TikAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E69F8B72348CAD500CC3385 /* Debug */,
+				5E69F8B82348CAD500CC3385 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E69F88C2348CAD200CC3385 /* Project object */;
+}
