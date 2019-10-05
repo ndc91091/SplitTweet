@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5E69F8982348CAD200CC3385 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8972348CAD200CC3385 /* AppDelegate.swift */; };
-		5E69F89A2348CAD200CC3385 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8992348CAD200CC3385 /* SceneDelegate.swift */; };
-		5E69F89C2348CAD200CC3385 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F89B2348CAD200CC3385 /* ViewController.swift */; };
+		5E69F89C2348CAD200CC3385 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F89B2348CAD200CC3385 /* TweetViewController.swift */; };
 		5E69F89F2348CAD200CC3385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E69F89D2348CAD200CC3385 /* Main.storyboard */; };
 		5E69F8A12348CAD400CC3385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E69F8A02348CAD400CC3385 /* Assets.xcassets */; };
 		5E69F8A42348CAD400CC3385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E69F8A22348CAD400CC3385 /* LaunchScreen.storyboard */; };
 		5E69F8AF2348CAD500CC3385 /* TikAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8AE2348CAD500CC3385 /* TikAssignmentTests.swift */; };
+		5E69F8BF2348F1F200CC3385 /* ListTweetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8BE2348F1F200CC3385 /* ListTweetsViewController.swift */; };
+		5E69F8C42348F2C600CC3385 /* TweetSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8C32348F2C600CC3385 /* TweetSplit.swift */; };
+		5E69F8CA2348F42200CC3385 /* String+Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8C92348F42200CC3385 /* String+Shortcuts.swift */; };
+		5E69F8CB2349016F00CC3385 /* TweetSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8C32348F2C600CC3385 /* TweetSplit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +32,7 @@
 /* Begin PBXFileReference section */
 		5E69F8942348CAD200CC3385 /* TikAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E69F8972348CAD200CC3385 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5E69F8992348CAD200CC3385 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5E69F89B2348CAD200CC3385 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E69F89B2348CAD200CC3385 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 		5E69F89E2348CAD200CC3385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E69F8A02348CAD400CC3385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E69F8A32348CAD400CC3385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +40,10 @@
 		5E69F8AA2348CAD500CC3385 /* TikAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TikAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E69F8AE2348CAD500CC3385 /* TikAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikAssignmentTests.swift; sourceTree = "<group>"; };
 		5E69F8B02348CAD500CC3385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E69F8BE2348F1F200CC3385 /* ListTweetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTweetsViewController.swift; sourceTree = "<group>"; };
+		5E69F8C32348F2C600CC3385 /* TweetSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetSplit.swift; sourceTree = "<group>"; };
+		5E69F8C92348F42200CC3385 /* String+Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Shortcuts.swift"; sourceTree = "<group>"; };
+		5E69F8CD234906A800CC3385 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +85,10 @@
 		5E69F8962348CAD200CC3385 /* TikAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				5E69F8972348CAD200CC3385 /* AppDelegate.swift */,
-				5E69F8992348CAD200CC3385 /* SceneDelegate.swift */,
-				5E69F89B2348CAD200CC3385 /* ViewController.swift */,
-				5E69F89D2348CAD200CC3385 /* Main.storyboard */,
-				5E69F8A02348CAD400CC3385 /* Assets.xcassets */,
+				5E69F8C82348F40D00CC3385 /* Extensions */,
+				5E69F8C12348F26A00CC3385 /* Features */,
+				5E69F8BB2348F11F00CC3385 /* Resources */,
+				5E69F8BA2348F11800CC3385 /* AppDelegate */,
 				5E69F8A22348CAD400CC3385 /* LaunchScreen.storyboard */,
 				5E69F8A52348CAD400CC3385 /* Info.plist */,
 			);
@@ -97,6 +102,81 @@
 				5E69F8B02348CAD500CC3385 /* Info.plist */,
 			);
 			path = TikAssignmentTests;
+			sourceTree = "<group>";
+		};
+		5E69F8B92348F0F000CC3385 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8BD2348F18A00CC3385 /* ListTweets */,
+				5E69F8BC2348F17000CC3385 /* Tweet */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5E69F8BA2348F11800CC3385 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8972348CAD200CC3385 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5E69F8BB2348F11F00CC3385 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F89D2348CAD200CC3385 /* Main.storyboard */,
+				5E69F8A02348CAD400CC3385 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E69F8BC2348F17000CC3385 /* Tweet */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F89B2348CAD200CC3385 /* TweetViewController.swift */,
+			);
+			path = Tweet;
+			sourceTree = "<group>";
+		};
+		5E69F8BD2348F18A00CC3385 /* ListTweets */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8BE2348F1F200CC3385 /* ListTweetsViewController.swift */,
+			);
+			path = ListTweets;
+			sourceTree = "<group>";
+		};
+		5E69F8C02348F20500CC3385 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8C32348F2C600CC3385 /* TweetSplit.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		5E69F8C12348F26A00CC3385 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8C22348F27900CC3385 /* TweetSplitMessage */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5E69F8C22348F27900CC3385 /* TweetSplitMessage */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8C02348F20500CC3385 /* Logic */,
+				5E69F8B92348F0F000CC3385 /* Scenes */,
+			);
+			path = TweetSplitMessage;
+			sourceTree = "<group>";
+		};
+		5E69F8C82348F40D00CC3385 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8C92348F42200CC3385 /* String+Shortcuts.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E69F89C2348CAD200CC3385 /* ViewController.swift in Sources */,
+				5E69F8C42348F2C600CC3385 /* TweetSplit.swift in Sources */,
+				5E69F8BF2348F1F200CC3385 /* ListTweetsViewController.swift in Sources */,
+				5E69F89C2348CAD200CC3385 /* TweetViewController.swift in Sources */,
 				5E69F8982348CAD200CC3385 /* AppDelegate.swift in Sources */,
-				5E69F89A2348CAD200CC3385 /* SceneDelegate.swift in Sources */,
+				5E69F8CA2348F42200CC3385 /* String+Shortcuts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E69F8CB2349016F00CC3385 /* TweetSplit.swift in Sources */,
 				5E69F8AF2348CAD500CC3385 /* TikAssignmentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +312,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5E69F89E2348CAD200CC3385 /* Base */,
+				5E69F8CD234906A800CC3385 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -365,7 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PHG65TP2F4;
 				INFOPLIST_FILE = TikAssignment/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,7 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PHG65TP2F4;
 				INFOPLIST_FILE = TikAssignment/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
