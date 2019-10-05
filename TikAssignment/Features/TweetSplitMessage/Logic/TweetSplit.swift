@@ -103,5 +103,4 @@ class TweetSplit: TweetSplitType {
         return "\(indexOfPartition)/\(number) ".count
     }
     
-    
 }

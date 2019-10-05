@@ -17,6 +17,7 @@
 		5E69F8C42348F2C600CC3385 /* TweetSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8C32348F2C600CC3385 /* TweetSplit.swift */; };
 		5E69F8CA2348F42200CC3385 /* String+Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8C92348F42200CC3385 /* String+Shortcuts.swift */; };
 		5E69F8CB2349016F00CC3385 /* TweetSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8C32348F2C600CC3385 /* TweetSplit.swift */; };
+		5E69F8D023490DAE00CC3385 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E69F8CF23490DAE00CC3385 /* TweetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5E69F8C32348F2C600CC3385 /* TweetSplit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetSplit.swift; sourceTree = "<group>"; };
 		5E69F8C92348F42200CC3385 /* String+Shortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Shortcuts.swift"; sourceTree = "<group>"; };
 		5E69F8CD234906A800CC3385 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		5E69F8CF23490DAE00CC3385 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		5E69F8BD2348F18A00CC3385 /* ListTweets */ = {
 			isa = PBXGroup;
 			children = (
+				5E69F8CE23490D8A00CC3385 /* Cells */,
 				5E69F8BE2348F1F200CC3385 /* ListTweetsViewController.swift */,
 			);
 			path = ListTweets;
@@ -177,6 +180,14 @@
 				5E69F8C92348F42200CC3385 /* String+Shortcuts.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E69F8CE23490D8A00CC3385 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5E69F8CF23490DAE00CC3385 /* TweetTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 				5E69F89C2348CAD200CC3385 /* TweetViewController.swift in Sources */,
 				5E69F8982348CAD200CC3385 /* AppDelegate.swift in Sources */,
 				5E69F8CA2348F42200CC3385 /* String+Shortcuts.swift in Sources */,
+				5E69F8D023490DAE00CC3385 /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

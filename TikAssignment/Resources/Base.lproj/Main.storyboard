@@ -39,6 +39,9 @@
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Kkf-cm-fR4"/>
+                                </connections>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWT-wl-cJi">
                                 <rect key="frame" x="0.0" y="798" width="414" height="64"/>
@@ -70,6 +73,7 @@
                     <navigationItem key="navigationItem" id="0CE-ST-9lZ"/>
                     <connections>
                         <outlet property="messageTextView" destination="aJ2-d4-SdB" id="lfb-bG-Ole"/>
+                        <outlet property="sendButton" destination="EWT-wl-cJi" id="ZPx-d1-Wng"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
