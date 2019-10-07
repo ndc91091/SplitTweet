@@ -61,7 +61,7 @@ class TweetSplit: TweetSplitType {
                 return result.subTweets
             } else {
                 count = count + 1
-                maxNumberSubTweet = Int(powf(10.0, Float(count))) - 1;
+                maxNumberSubTweet = Int(powf(10.0, Float(count))) - 1
             }
         }
         
@@ -73,8 +73,16 @@ class TweetSplit: TweetSplitType {
         var numberSubTweet = 1
         var maxSubTweetLength = maxTweetLength - lengthOfIndicator(numberSubTweet, andMaxNumberOfSubTweet: maxNumberSubTweet)
         
+        if sentence.count > maxSubTweetLength {
+            return Result(subTweets: [], success: true)
+        }
+        
         for index in 1..<(messages.count) {
             let message  = messages[index]
+            
+            if message.count > maxSubTweetLength {
+               return Result(subTweets: [], success: true)
+            }
             
             if (sentence.count + message.count + 1) <= maxSubTweetLength {
                 sentence = "\(sentence) \(message)"
