@@ -54,16 +54,6 @@ class TikAssignmentTests: XCTestCase {
         XCTAssertEqual(output, expectResult)
     }
 
-    func testUserTwitMessageLessThanLimitCharacters() {
-        let inputString = "Loremipsumdolorsiterelitlamet,consectetaurcilli sed doeiusmodtemporincididuntutlaboreetdo. Utenimadminimveniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        let expectResult = ["1/4 Loremipsumdolorsiterelitlamet,consectetaurcilli",
-                            "2/4 sed doeiusmodtemporincididuntutlaboreetdo.",
-                            "3/4 Utenimadminimveniam,quis nostrud exercitation",
-                            "4/4 ullamco laboris nisi ut aliquip ex ea commodo"]
-        let outputResult = tweetSplit?.splitMessage(inputString)
-        XCTAssertEqual(outputResult, expectResult)
-    }
-
     func testWithMessageHasOnlySpace() {
         let inputString = "I can'tbelieveTweeternowsupportschunkingmymessages,soIdon'thavetodoitmyself"
         let expectResult = [String]()
@@ -130,6 +120,13 @@ class TikAssignmentTests: XCTestCase {
         let inputString = "🤓🤓🤓🤓🤓🤓 😜😜😜😜😜 Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu"
         let expectResult = ["1/2 🤓🤓🤓🤓🤓🤓 😜😜😜😜😜 Lorem ipsum dolor sit er elit",
                             "2/2 lamet, consectetaur cillium adipisicing pecu"]
+        let output = tweetSplit?.splitMessage(inputString)
+        XCTAssertEqual(output, expectResult)
+    }
+    
+    func testMessageHasCharactersInWordGreatThanMaxSubTweetLength() {
+        let inputString = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa test"
+        let expectResult = [String]()
         let output = tweetSplit?.splitMessage(inputString)
         XCTAssertEqual(output, expectResult)
     }
