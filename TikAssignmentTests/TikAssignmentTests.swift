@@ -25,10 +25,15 @@ class TikAssignmentTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
+    func testPerformanceSplitLongTweet() {
+        let wordRepo = ["Lorem", "ipsum", "dolor", "sit", "er", "elit", "lamet,", "consectetaur", "cillium", "adipisicing", "pecu,", "sed", "do", "eiusmod", "tempor", "incididunt", "ut", "labore", "et", "dolore", "magna", "aliqua.", "Ut", "enim", "ad", "minim", "veniam,", "quis", "nostrud", "exercitation", "ullamco", "laboris", "nisi", "ut", "aliquip", "ex", "ea", "commodo", "consequat.", "Duis", "aute", "irure", "dolor", "in", "reprehenderit", "in", "voluptate", "velit", "esse", "cillum", "dolore", "eu", "fugiat", "nulla", "pariatur.", "Excepteur", "sint", "occaecat", "cupidatat", "non", "proident,", "sunt", "in", "culpa", "qui", "officia", "deserunt", "mollit", "anim", "id", "est", "laborum."]
+        var inputString: String = ""
+        for _ in 1...1000000 {
+            inputString.append(wordRepo[Int.random(in: 0..<wordRepo.count)])
+            inputString.append(" ")
+        }
         self.measure {
-            // Put the code you want to measure the time of here.
+            let _ = tweetSplit?.splitMessage(inputString)
         }
     }
     
@@ -131,6 +136,20 @@ class TikAssignmentTests: XCTestCase {
         XCTAssertEqual(output, expectResult)
     }
     
+    func testSubTweetLengthExcessMaxLengthAfterAppendIndicator() {
+        let inputValue = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa test"
+        let expectValue = [String]()
+        let output = tweetSplit?.splitMessage(inputValue)
+        XCTAssertEqual(output, expectValue)
+    }
+
+    func testSubTweetLengthExcessMaxLengthAfterAppendIndicatorV2() {
+        let inputValue = "deserunt test aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+        let expectValue = [String]()
+        let output = tweetSplit?.splitMessage(inputValue)
+        XCTAssertEqual(output, expectValue)
+    }
+    
     func testLengthOfIndicator() {
         let partionIndex = 5
         let maximumPartion = 10
@@ -138,5 +157,4 @@ class TikAssignmentTests: XCTestCase {
         let output = tweetSplit?.lengthOfIndicator(partionIndex, andMaxNumberOfSubTweet: maximumPartion)
         XCTAssertEqual(output, expectResult)
     }
-
 }
