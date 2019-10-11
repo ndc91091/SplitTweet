@@ -1,7 +1,7 @@
 # SplitTweet
 ![](https://img.shields.io/badge/Supported-iOS9.0-4BC51D.svg?style=flat)
 ![](https://img.shields.io/badge/Swift5.1-compatible-4BC51D.svg?style=flat)
-[![CircleCI](https://circleci.com/gh/cuoong/SplitTweet.svg?style=svg)](https://circleci.com/gh/cuoong/SplitTweet)
+[![Build Status](https://travis-ci.org/ndc91091/SplitTweet.svg?branch=develop)](https://travis-ci.org/ndc91091/SplitTweet)
 
 SplitTweet allow users to post short message limited to 50 characters. 
 
